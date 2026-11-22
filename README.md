@@ -22,6 +22,16 @@ Python rebuild of my 5 MWp grid-connected PV plant design for Montpellier, Franc
 5. **DC/AC ratio study:** clipping and marginal yield from 1.0 to 1.6
 6. **Tilt & azimuth study:** 169 orientations, optimum and 98 % zone
 
+## Notebook 2: AI forecasting for battery control (`02_my_ai_forecasting.ipynb`)
+Grenoble office building · 400 kWp PV · 300 kWh battery · PVGIS hourly 2019–2020
+
+| | |
+|---|---|
+| Day-ahead forecasts (gradient boosting) | PV nRMSE 20.5 % · demand 16.4 % · 74 % / 68 % skill vs persistence |
+| Explainability | Permutation importance + ablation test |
+| Battery control | 5 strategies compared on an unseen year |
+| Result | Bill 135 → 45 k€/yr. ML control matches the perfect forecast with −1.1 t CO₂ vs blind charging |
+
 ## Tools
 Python · pvlib · pandas · NumPy · matplotlib · Jupyter · VS Code · Git
 

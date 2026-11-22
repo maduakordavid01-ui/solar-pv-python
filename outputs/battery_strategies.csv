@@ -1,0 +1,8 @@
+Strategy,Grid import [MWh],Self-consumption [%],Self-sufficiency [%],Annual cost [k€],CO2 [t],Saving vs no PV [k€]
+"No PV, no battery",581.42,,0.0,135.05,32.56,0.0
+PV only,315.16,52.12,45.79,58.7,17.65,76.35
+Battery: solar charging only,257.68,64.33,55.68,46.83,14.43,88.22
+Battery: always fill at night,278.86,60.95,52.04,45.38,15.62,89.67
+Battery: persistence forecast,262.14,63.85,54.91,45.3,14.68,89.75
+Battery: ML forecast,259.71,64.32,55.33,45.04,14.54,90.01
+Battery: perfect forecast,259.72,64.33,55.33,44.99,14.54,90.06

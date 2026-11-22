@@ -1,0 +1,5 @@
+Forecast,Model,MAE [kW],RMSE [kW],nRMSE [%]
+PV,Persistence,19.84,45.93,78.97
+PV,Gradient boosting,5.44,11.95,20.55
+LOAD,Persistence,18.57,33.52,50.64
+LOAD,Gradient boosting,6.38,10.82,16.35
