@@ -2,6 +2,8 @@
 
 Python rebuild of my 5 MWp grid-connected PV plant design for Montpellier, France, from real PVGIS weather data to annual energy yield.
 
+📐 **Electrical design files** (SLD, report, energy analysis): [5MWp_Solar_PV_Electrical_Design_Portfolio](5MWp_Solar_PV_Electrical_Design_Portfolio/)
+
 **Author:** Maduakor Uchechukwu David, MSc Energy for Solar Buildings and Cities (Université Savoie Mont Blanc, 2026)
 [LinkedIn](https://linkedin.com/in/david-maduakor)
 
@@ -33,7 +35,7 @@ Grenoble office building · 400 kWp PV · 300 kWh battery · PVGIS hourly 2019�
 | Result | Bill 135 → 45 k€/yr. ML control matches the perfect forecast with −1.1 t CO₂ vs blind charging |
 
 ## Tools
-Python · pvlib · pandas · NumPy · matplotlib · Jupyter · VS Code · Git
+Python · pvlib · pandas · NumPy · matplotlib · scikit-learn · Jupyter · VS Code · Git
 
 ## Run it
     pip install -r requirements.txt
