@@ -34,8 +34,17 @@ Grenoble office building · 400 kWp PV · 300 kWh battery · PVGIS hourly 2019�
 | Battery control | 5 strategies compared on an unseen year |
 | Result | Bill 135 → 45 k€/yr. ML control matches the perfect forecast with −1.1 t CO₂ vs blind charging |
 
+## Track A: 500 kWp rooftop PV, design-office deliverables
+Industrial flat roof · 900 × 550 Wp · 5 × 100 kW string inverters · self-consumption
+- **AutoCAD:** roof layout (strings, inverters, dimensions) and single-line diagram → [`TrackA_500kWp/`](TrackA_500kWp/)
+- **Python calculation note** (`03_calculation_note_500kWp.ipynb`), checks per UTE C 15-712-1 / NF C 15-100:
+  - DC: Voc max 821 V ≤ 1,100 V, no string fuses needed
+  - DC cables: 4/6/10 mm², every string ≤ 1 % drop, losses 0.70 %
+  - AC: Q1–Q5 160 A, QG 800 A, total drop 1.45 %
+  - Insight: central inverters would cut DC cable by 44 %
+
 ## Tools
-Python · pvlib · pandas · NumPy · matplotlib · scikit-learn · Jupyter · VS Code · Git
+Python · pvlib · pandas · NumPy · matplotlib · scikit-learn · Jupyter · VS Code · Git · AutoCAD
 
 ## Run it
     pip install -r requirements.txt
